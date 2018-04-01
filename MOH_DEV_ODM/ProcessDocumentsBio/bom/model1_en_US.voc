@@ -1,0 +1,29 @@
+# Vocabulary Properties
+uuid = 25a46766-080f-4bcb-950e-c8350aafdc8b
+
+# ae.gov.mohap.odm.documents.DocumentDefinition
+ae.gov.mohap.odm.documents.DocumentDefinition#concept.label = document definition
+ae.gov.mohap.odm.documents.DocumentDefinition.createDocument(java.lang.String,java.lang.String,java.lang.String,boolean)#phrase.navigation = document definition.createDocument({0}, {1}, {2}, {3})
+ae.gov.mohap.odm.documents.DocumentDefinition.description#phrase.action = set the description of {this} to {description}
+ae.gov.mohap.odm.documents.DocumentDefinition.description#phrase.navigation = {description} of {this}
+ae.gov.mohap.odm.documents.DocumentDefinition.documentDefinitionId#phrase.action = set the document definition id of {this} to {document definition id}
+ae.gov.mohap.odm.documents.DocumentDefinition.documentDefinitionId#phrase.navigation = {document definition id} of {this}
+ae.gov.mohap.odm.documents.DocumentDefinition.name#phrase.action = set the name of {this} to {name}
+ae.gov.mohap.odm.documents.DocumentDefinition.name#phrase.navigation = {name} of {this}
+ae.gov.mohap.odm.documents.DocumentDefinition.reusable#phrase.action = make it {reusable} that {this} is reusable
+ae.gov.mohap.odm.documents.DocumentDefinition.reusable#phrase.navigation = {this} is reusable
+
+# ae.gov.mohap.odm.processDocuments.Document
+ae.gov.mohap.odm.processDocuments.Document#concept.label = document
+ae.gov.mohap.odm.processDocuments.Document.createDocument(java.lang.String,java.lang.String,boolean)#phrase.navigation = document.createDocument({0}, {1}, {2})
+ae.gov.mohap.odm.processDocuments.Document.mandatory#phrase.action = make it {mandatory} that {this} is mandatory
+ae.gov.mohap.odm.processDocuments.Document.mandatory#phrase.navigation = {this} is mandatory
+ae.gov.mohap.odm.processDocuments.Document.remark#phrase.action = set the remark of {this} to {remark}
+ae.gov.mohap.odm.processDocuments.Document.remark#phrase.navigation = {remark} of {this}
+ae.gov.mohap.odm.processDocuments.Document.toString()#phrase.navigation = {this}.toString()
+
+# ae.gov.mohap.odm.processDocuments.Response
+ae.gov.mohap.odm.processDocuments.Response#concept.label = response
+ae.gov.mohap.odm.processDocuments.Response.documents#phrase.action = set the documents of {this} to {document}
+ae.gov.mohap.odm.processDocuments.Response.documents#phrase.navigation = {document} of {this}
+ae.gov.mohap.odm.processDocuments.Response.toString()#phrase.navigation = {this}.toString()

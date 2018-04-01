@@ -1,0 +1,279 @@
+
+property loadGetterSetterAsProperties "true"
+property origin "xom:/ProcessDocumentsBio//ProcessDocumentsBioModel"
+property uuid "cb1e32d5-7dd0-469a-9428-53b492061710"
+package ae.gov.mohap.odm.model.BiologicalDocuments;
+
+
+public class ActiveIngredient
+{
+    public string additionalInfo;
+    public java.lang.Integer apiId;
+    public java.math.BigDecimal contentFactor;
+    public string description;
+    public string indication;
+    public ae.gov.mohap.odm.model.BiologicalDocuments.Name name;
+    public java.math.BigDecimal quantity;
+    public ae.gov.mohap.odm.model.BiologicalDocuments.DicValue quantityUnit;
+    public java.math.BigDecimal refQuantity;
+    public ae.gov.mohap.odm.model.BiologicalDocuments.DicValue refQuantityUnit;
+    public ActiveIngredient();
+    public ae.gov.mohap.odm.model.BiologicalDocuments.ActiveIngredient additionalInfo(string arg);
+    public ae.gov.mohap.odm.model.BiologicalDocuments.ActiveIngredient apiId(java.lang.Integer arg);
+    public ae.gov.mohap.odm.model.BiologicalDocuments.ActiveIngredient contentFactor(java.math.BigDecimal arg);
+    public ae.gov.mohap.odm.model.BiologicalDocuments.ActiveIngredient description(string arg);
+    public boolean equals(object arg);
+    public int hashCode();
+    public ae.gov.mohap.odm.model.BiologicalDocuments.ActiveIngredient quantity(java.math.BigDecimal arg);
+    public ae.gov.mohap.odm.model.BiologicalDocuments.ActiveIngredient quantityUnit(ae.gov.mohap.odm.model.BiologicalDocuments.DicValue arg);
+    public ae.gov.mohap.odm.model.BiologicalDocuments.ActiveIngredient refQuantity(java.math.BigDecimal arg);
+    public ae.gov.mohap.odm.model.BiologicalDocuments.ActiveIngredient refQuantityUnit(ae.gov.mohap.odm.model.BiologicalDocuments.DicValue arg);
+    public string toString();
+}
+
+public class Agent
+{
+    public string address;
+    public string emirate;
+    public string fax;
+    public string licenseAuthority;
+    public java.util.Date licenseExpireDate;
+    public string licenseNo;
+    public string name;
+    public string poBox;
+    public string telephone;
+    public string type;
+    public string webSite;
+    public Agent();
+}
+
+public class ApplicationBiologicalDocs
+{
+    public ae.gov.mohap.odm.model.BiologicalDocuments.Agent agent;
+    public string applicationNumber;
+    public java.lang.Integer drugNum;
+    public string permitNumber;
+    public ae.gov.mohap.odm.model.BiologicalDocuments.Product product;
+    public java.util.Date submitionDate;
+    public ApplicationBiologicalDocs();
+    public ae.gov.mohap.odm.model.BiologicalDocuments.ApplicationBiologicalDocs applicationNumber(string arg);
+}
+
+public class BiologicalApplication
+{
+    public string applicationNumber;
+    public BiologicalApplication();
+}
+
+public class CompanyName
+{
+    public int key;
+    public string value;
+    public CompanyName();
+}
+
+public class Country
+{
+    public int key;
+    public string value;
+    public Country();
+}
+
+public class DicValue
+{
+    public string key;
+    public string parentKey;
+    public string symbol;
+    public string value;
+    public DicValue();
+    public boolean equals(object arg);
+    public int hashCode();
+    public ae.gov.mohap.odm.model.BiologicalDocuments.DicValue key(string arg);
+    public ae.gov.mohap.odm.model.BiologicalDocuments.DicValue parentKey(string arg);
+    public ae.gov.mohap.odm.model.BiologicalDocuments.DicValue symbol(string arg);
+    public string toString();
+    public ae.gov.mohap.odm.model.BiologicalDocuments.DicValue value(string arg);
+}
+
+public class DrugStore
+{
+    public string agentName;
+    public string agentRegNo;
+    public string licenseAuthority;
+    public java.util.Date licenseExpireDate;
+    public string licenseNo;
+    public string type;
+    public DrugStore();
+    public ae.gov.mohap.odm.model.BiologicalDocuments.DrugStore agentName(string arg);
+    public ae.gov.mohap.odm.model.BiologicalDocuments.DrugStore agentRegNo(string arg);
+    public boolean equals(object arg);
+    public int hashCode();
+    public ae.gov.mohap.odm.model.BiologicalDocuments.DrugStore licenseExpireDate(java.util.Date arg);
+    public ae.gov.mohap.odm.model.BiologicalDocuments.DrugStore licenseNo(string arg);
+    public string toString();
+}
+
+public class EndUser
+{
+    public string address;
+    public string approvalNumber;
+    public string authorizationNum;
+    public string biologicalEmirate;
+    public string email;
+    public string fax;
+    public string healthAuthorityName;
+    public java.util.Date lpoDate;
+    public string lpoNum;
+    public string name;
+    public string poBox;
+    public java.lang.Integer quantity;
+    public ae.gov.mohap.odm.model.BiologicalDocuments.DicValue quantityUnit;
+    public string remarks;
+    public string telephone;
+    public ae.gov.mohap.odm.model.BiologicalDocuments.Type type;
+    public string webSite;
+    public EndUser();
+    public ae.gov.mohap.odm.model.BiologicalDocuments.EndUser approvalNumber(string arg);
+    public ae.gov.mohap.odm.model.BiologicalDocuments.EndUser authorizationNum(string arg);
+    public boolean equals(object arg);
+    public int hashCode();
+    public ae.gov.mohap.odm.model.BiologicalDocuments.EndUser healthAuthorityName(string arg);
+    public ae.gov.mohap.odm.model.BiologicalDocuments.EndUser lpoDate(java.util.Date arg);
+    public ae.gov.mohap.odm.model.BiologicalDocuments.EndUser lpoNum(string arg);
+    public ae.gov.mohap.odm.model.BiologicalDocuments.EndUser quantity(java.lang.Integer arg);
+    public ae.gov.mohap.odm.model.BiologicalDocuments.EndUser quantityUnit(ae.gov.mohap.odm.model.BiologicalDocuments.DicValue arg);
+    public string toString();
+}
+
+public class InactiveIngredient
+{
+    public string additionalInfo;
+    public string description;
+    public string functionDesc;
+    public string indication;
+    public java.lang.Integer ipiId;
+    public ae.gov.mohap.odm.model.BiologicalDocuments.Name name;
+    public java.math.BigDecimal quantity;
+    public ae.gov.mohap.odm.model.BiologicalDocuments.DicValue quantityUnit;
+    public java.math.BigDecimal refQuantity;
+    public ae.gov.mohap.odm.model.BiologicalDocuments.DicValue refQuantityUnit;
+    public InactiveIngredient();
+    public ae.gov.mohap.odm.model.BiologicalDocuments.InactiveIngredient additionalInfo(string arg);
+    public ae.gov.mohap.odm.model.BiologicalDocuments.InactiveIngredient description(string arg);
+    public boolean equals(object arg);
+    public ae.gov.mohap.odm.model.BiologicalDocuments.InactiveIngredient functionDesc(string arg);
+    public int hashCode();
+    public ae.gov.mohap.odm.model.BiologicalDocuments.InactiveIngredient ipiId(java.lang.Integer arg);
+    public ae.gov.mohap.odm.model.BiologicalDocuments.InactiveIngredient quantity(java.math.BigDecimal arg);
+    public ae.gov.mohap.odm.model.BiologicalDocuments.InactiveIngredient quantityUnit(ae.gov.mohap.odm.model.BiologicalDocuments.DicValue arg);
+    public ae.gov.mohap.odm.model.BiologicalDocuments.InactiveIngredient refQuantity(java.math.BigDecimal arg);
+    public ae.gov.mohap.odm.model.BiologicalDocuments.InactiveIngredient refQuantityUnit(ae.gov.mohap.odm.model.BiologicalDocuments.DicValue arg);
+    public string toString();
+}
+
+public class ManCompanyName
+{
+    public int key;
+    public string value;
+    public ManCompanyName();
+}
+
+public class ManCountry
+{
+    public int key;
+    public string value;
+    public ManCountry();
+}
+
+public class Name
+{
+    public int key;
+    public string value;
+    public Name();
+}
+
+public class OMCL
+{
+    public string address;
+    public string batchNumbers;
+    public string certificateNumber;
+    public string city;
+    public ae.gov.mohap.odm.model.BiologicalDocuments.CompanyName companyName;
+    public ae.gov.mohap.odm.model.BiologicalDocuments.Country country;
+    public java.util.Date expiryDate;
+    public string fax;
+    public string hasOmlcBatchCertificate;
+    public java.util.Date issueDate;
+    public string manAddress;
+    public string manCity;
+    public ae.gov.mohap.odm.model.BiologicalDocuments.ManCompanyName manCompanyName;
+    public ae.gov.mohap.odm.model.BiologicalDocuments.ManCountry manCountry;
+    public string manEmail;
+    public string manFax;
+    public string manPoBox;
+    public string manTelephone;
+    public string manWebSite;
+    public java.util.Date manufacturerDate;
+    public string poBox;
+    public string telephone;
+    public string webSite;
+    public OMCL();
+}
+
+public class Product
+{
+    public java.util.List endUser domain 0,* class ae.gov.mohap.odm.model.BiologicalDocuments.EndUser;
+    public ae.gov.mohap.odm.model.BiologicalDocuments.OMCL omcl;
+    public ae.gov.mohap.odm.model.BiologicalDocuments.ProductInfo productInfo;
+    public ae.gov.mohap.odm.model.BiologicalDocuments.SourceCompany sourceCompany;
+    public Product();
+}
+
+public class ProductFrom
+{
+    public int key;
+    public string value;
+    public ProductFrom();
+}
+
+public class ProductInfo
+{
+    public java.util.List activeIngredient domain 0,* class ae.gov.mohap.odm.model.BiologicalDocuments.ActiveIngredient;
+    public string batchNumber;
+    public java.util.Date expiryDate;
+    public java.util.List inactiveIngredient domain 0,* class ae.gov.mohap.odm.model.BiologicalDocuments.InactiveIngredient;
+    public java.util.Date manufactureDate;
+    public string packName;
+    public ae.gov.mohap.odm.model.BiologicalDocuments.ProductFrom productFrom;
+    public string productName;
+    public boolean productRegistered;
+    public string productStrength;
+    public string quantity;
+    public string storageCondition;
+    public ae.gov.mohap.odm.model.BiologicalDocuments.Type type;
+    public ProductInfo();
+}
+
+public class SourceCompany
+{
+    public string address;
+    public string city;
+    public ae.gov.mohap.odm.model.BiologicalDocuments.CompanyName companyName;
+    public ae.gov.mohap.odm.model.BiologicalDocuments.Country country;
+    public string email;
+    public string fax;
+    public string poBox;
+    public boolean registered;
+    public string telephone;
+    public ae.gov.mohap.odm.model.BiologicalDocuments.Type type;
+    public string webSite;
+    public SourceCompany();
+}
+
+public class Type
+{
+    public int key;
+    public string value;
+    public Type();
+}
+

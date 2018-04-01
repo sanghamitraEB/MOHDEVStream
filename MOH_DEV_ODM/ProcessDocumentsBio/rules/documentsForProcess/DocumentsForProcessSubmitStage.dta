@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.dt:DecisionTable xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.dt="http://ilog.rules.studio/model/dt.ecore">
+  <name>DocumentsForProcessSubmitStage</name>
+  <uuid>ffec9b16-08b5-4956-ac32-7c0bb07e39b1</uuid>
+  <documentation><![CDATA[Definitions of documents for submit stage of an application.]]></documentation>
+  <locale>en_US</locale>
+  <definition>
+<DT Version="7.0" xmlns="http://schemas.ilog.com/Rules/7.0/DecisionTable">
+  <Body>
+    <Properties>
+      <Property Name="Check.Gap" Type="xs:boolean"><![CDATA[false]]></Property>
+    </Properties>
+    <Preconditions>
+      <Text><![CDATA[
+if
+    the stage of 'process state' is Submit]]></Text>
+    </Preconditions>
+    <Structure>
+      <ConditionDefinitions>
+        <ConditionDefinition Id="C0">
+          <ExpressionDefinition>
+            <Text><![CDATA[the application number of application is one of <strings>]]></Text>
+          </ExpressionDefinition>
+        </ConditionDefinition>
+        <ConditionDefinition Id="C1">
+          <Properties>
+            <Property Name="Check.Gap" Type="xs:boolean"><![CDATA[false]]></Property>
+            <Property Name="Check.Overlap" Type="xs:boolean"><![CDATA[false]]></Property>
+          </Properties>
+          <ExpressionDefinition>
+            <Text><![CDATA[true is <an object>]]></Text>
+          </ExpressionDefinition>
+        </ConditionDefinition>
+        <ConditionDefinition Id="C2">
+          <ExpressionDefinition>
+            <Text><![CDATA['product registered' is <a boolean>]]></Text>
+          </ExpressionDefinition>
+        </ConditionDefinition>
+      </ConditionDefinitions>
+      <ActionDefinitions>
+        <ActionDefinition Id="A0">
+          <ExpressionDefinition>
+            <Text><![CDATA[add document.createDocument ( <a string> , <a string> , <a boolean> )  to the documents of decision]]></Text>
+          </ExpressionDefinition>
+        </ActionDefinition>
+      </ActionDefinitions>
+    </Structure>
+    <Contents>
+      <Partition DefId="C0">
+        <Condition>
+          <Expression>
+            <Param><![CDATA[{ "mohAppImportBiologicalProductVaccineAndBloodFactors" }]]></Param>
+          </Expression>
+          <Partition DefId="C1">
+            <Condition>
+              <Expression>
+                <Param><![CDATA[true]]></Param>
+              </Expression>
+              <ActionSet>
+                <Action DefId="A0">
+                  <Expression>
+                    <Param><![CDATA["ID_261"]]></Param>
+                    <Param><![CDATA[""]]></Param>
+                    <Param><![CDATA[false]]></Param>
+                  </Expression>
+                </Action>
+              </ActionSet>
+            </Condition>
+            <Condition>
+              <Expression>
+                <Param><![CDATA[true]]></Param>
+              </Expression>
+              <ActionSet>
+                <Action DefId="A0">
+                  <Expression>
+                    <Param><![CDATA["ID_262"]]></Param>
+                    <Param><![CDATA[""]]></Param>
+                    <Param><![CDATA[false]]></Param>
+                  </Expression>
+                </Action>
+              </ActionSet>
+            </Condition>
+            <Condition>
+              <Expression>
+                <Param><![CDATA[true]]></Param>
+              </Expression>
+              <ActionSet>
+                <Action DefId="A0">
+                  <Expression>
+                    <Param><![CDATA["ID_263"]]></Param>
+                    <Param><![CDATA[""]]></Param>
+                    <Param><![CDATA[false]]></Param>
+                  </Expression>
+                </Action>
+              </ActionSet>
+            </Condition>
+            <Condition>
+              <Expression>
+                <Param><![CDATA[true]]></Param>
+              </Expression>
+              <ActionSet>
+                <Action DefId="A0">
+                  <Expression>
+                    <Param><![CDATA["ID_264"]]></Param>
+                    <Param><![CDATA[""]]></Param>
+                    <Param><![CDATA[false]]></Param>
+                  </Expression>
+                </Action>
+              </ActionSet>
+            </Condition>
+            <Condition>
+              <Expression>
+                <Param><![CDATA[true]]></Param>
+              </Expression>
+              <ActionSet>
+                <Action DefId="A0">
+                  <Expression>
+                    <Param><![CDATA["ID_265"]]></Param>
+                    <Param><![CDATA[""]]></Param>
+                    <Param><![CDATA[true]]></Param>
+                  </Expression>
+                </Action>
+              </ActionSet>
+            </Condition>
+            <Condition>
+              <Expression>
+                <Param><![CDATA[true]]></Param>
+              </Expression>
+              <ActionSet>
+                <Action DefId="A0">
+                  <Expression>
+                    <Param><![CDATA["ID_267"]]></Param>
+                    <Param><![CDATA[""]]></Param>
+                    <Param><![CDATA[false]]></Param>
+                  </Expression>
+                </Action>
+              </ActionSet>
+            </Condition>
+            <Condition>
+              <Expression>
+                <Param><![CDATA[true]]></Param>
+              </Expression>
+              <ActionSet>
+                <Action DefId="A0">
+                  <Expression>
+                    <Param><![CDATA["ID_268"]]></Param>
+                    <Param><![CDATA[""]]></Param>
+                    <Param><![CDATA[false]]></Param>
+                  </Expression>
+                </Action>
+              </ActionSet>
+            </Condition>
+            <Condition>
+              <Expression>
+                <Param><![CDATA[true]]></Param>
+              </Expression>
+              <ActionSet>
+                <Action DefId="A0">
+                  <Expression>
+                    <Param><![CDATA["ID_269"]]></Param>
+                    <Param><![CDATA[""]]></Param>
+                    <Param><![CDATA[false]]></Param>
+                  </Expression>
+                </Action>
+              </ActionSet>
+            </Condition>
+          </Partition>
+        </Condition>
+      </Partition>
+    </Contents>
+  </Body>
+  <Resources DefaultLocale="en_US">
+    <ResourceSet Locale="en_US">
+      <Data Name="/0/0/A#Height"><![CDATA[20]]></Data>
+      <Data Name="/0/1/A#Height"><![CDATA[20]]></Data>
+      <Data Name="/0/2/A#Height"><![CDATA[20]]></Data>
+      <Data Name="/0/3/A#Height"><![CDATA[20]]></Data>
+      <Data Name="/0/4/A#Height"><![CDATA[20]]></Data>
+      <Data Name="/0/5/A#Height"><![CDATA[20]]></Data>
+      <Data Name="/0/6/A#Height"><![CDATA[20]]></Data>
+      <Data Name="/0/7/A#Height"><![CDATA[20]]></Data>
+      <Data Name="Definitions(A0)#HeaderText"><![CDATA[document]]></Data>
+      <Data Name="Definitions(A0)#Width"><![CDATA[383]]></Data>
+      <Data Name="Definitions(A0)[0]#HeaderText"><![CDATA[id]]></Data>
+      <Data Name="Definitions(A0)[1]#HeaderText"><![CDATA[remark]]></Data>
+      <Data Name="Definitions(A0)[2]#HeaderText"><![CDATA[mandatory]]></Data>
+      <Data Name="Definitions(C0)#HeaderText"><![CDATA[application number]]></Data>
+      <Data Name="Definitions(C0)#Width"><![CDATA[402]]></Data>
+      <Data Name="Definitions(C1)#HeaderText"><![CDATA[enabled]]></Data>
+      <Data Name="Definitions(C1)#Width"><![CDATA[347]]></Data>
+      <Data Name="Definitions(C2)#HeaderText"><![CDATA[registered product]]></Data>
+      <Data Name="Definitions(C2)#Width"><![CDATA[174]]></Data>
+    </ResourceSet>
+    <ResourceSet Locale="en_US_PL">
+      <Data Name="Definitions(A0)#Width"><![CDATA[288]]></Data>
+      <Data Name="Definitions(C0)#Width"><![CDATA[288]]></Data>
+      <Data Name="Definitions(C1)#Width"><![CDATA[272]]></Data>
+    </ResourceSet>
+    <ResourceSet Locale="pl_PL">
+      <Data Name="Definitions(A0)#Width"><![CDATA[289]]></Data>
+      <Data Name="Definitions(C0)#Width"><![CDATA[289]]></Data>
+      <Data Name="Definitions(C1)#Width"><![CDATA[274]]></Data>
+    </ResourceSet>
+  </Resources>
+</DT>
+</definition>
+</ilog.rules.studio.model.dt:DecisionTable>

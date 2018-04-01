@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>fillDocumentDefinitionDetails</name>
+  <uuid>02cafd81-1917-4625-8866-555ded202c9c</uuid>
+  <documentation><![CDATA[Fills seleceted documents with details from a documents definitions subproject.]]></documentation>
+  <locale>en_US</locale>
+  <definition><![CDATA[definitions
+    set 'document' to a document in the documents of decision ;
+    set 'document definition' to a document definition
+            where the document definition id of this document definition is the document definition id of document ;
+then
+    set the description of document to the description of 'document definition' ;
+    set the name of document to the name of 'document definition' ; 
+    make it 'document definition' is reusable that document is reusable ;]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

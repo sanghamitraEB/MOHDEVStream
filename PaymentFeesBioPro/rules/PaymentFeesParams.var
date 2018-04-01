@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:VariableSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>PaymentFeesParams</name>
+  <uuid>00586444-83a3-4075-981b-5643ebd5e31c</uuid>
+  <variables name="application" type="ae.gov.mohap.odm.model.BiologicalDocuments.ApplicationBiologicalDocs" initialValue="" verbalization="application"/>
+</ilog.rules.studio.model.base:VariableSet>

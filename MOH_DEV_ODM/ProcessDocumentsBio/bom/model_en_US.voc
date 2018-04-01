@@ -1,0 +1,366 @@
+# Vocabulary Properties
+uuid = 28edfd79-d41e-4120-9c2e-1411efb76ad6
+
+# ae.gov.mohap.odm.model.BiologicalDocuments.ActiveIngredient
+ae.gov.mohap.odm.model.BiologicalDocuments.ActiveIngredient#concept.label = active ingredient
+ae.gov.mohap.odm.model.BiologicalDocuments.ActiveIngredient.additionalInfo#phrase.action = set the additional info of {this} to {additional info}
+ae.gov.mohap.odm.model.BiologicalDocuments.ActiveIngredient.additionalInfo#phrase.navigation = {additional info} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.ActiveIngredient.additionalInfo(java.lang.String)#phrase.navigation = {this}.additionalInfo({0})
+ae.gov.mohap.odm.model.BiologicalDocuments.ActiveIngredient.apiId#phrase.action = set the api id of {this} to {api id}
+ae.gov.mohap.odm.model.BiologicalDocuments.ActiveIngredient.apiId#phrase.navigation = {api id} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.ActiveIngredient.apiId(java.lang.Integer)#phrase.navigation = {this}.apiId({0})
+ae.gov.mohap.odm.model.BiologicalDocuments.ActiveIngredient.contentFactor#phrase.action = set the content factor of {this} to {content factor}
+ae.gov.mohap.odm.model.BiologicalDocuments.ActiveIngredient.contentFactor#phrase.navigation = {content factor} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.ActiveIngredient.contentFactor(java.math.BigDecimal)#phrase.navigation = {this}.contentFactor({0})
+ae.gov.mohap.odm.model.BiologicalDocuments.ActiveIngredient.description#phrase.action = set the description of {this} to {description}
+ae.gov.mohap.odm.model.BiologicalDocuments.ActiveIngredient.description#phrase.navigation = {description} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.ActiveIngredient.description(java.lang.String)#phrase.navigation = {this}.description({0})
+ae.gov.mohap.odm.model.BiologicalDocuments.ActiveIngredient.equals(java.lang.Object)#phrase.navigation = {this}.equals({0})
+ae.gov.mohap.odm.model.BiologicalDocuments.ActiveIngredient.hashCode()#phrase.navigation = {this}.hashCode()
+ae.gov.mohap.odm.model.BiologicalDocuments.ActiveIngredient.indication#phrase.action = set the indication of {this} to {indication}
+ae.gov.mohap.odm.model.BiologicalDocuments.ActiveIngredient.indication#phrase.navigation = {indication} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.ActiveIngredient.name#phrase.action = set the name of {this} to {name}
+ae.gov.mohap.odm.model.BiologicalDocuments.ActiveIngredient.name#phrase.navigation = {name} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.ActiveIngredient.quantity#phrase.action = set the quantity of {this} to {quantity}
+ae.gov.mohap.odm.model.BiologicalDocuments.ActiveIngredient.quantity#phrase.navigation = {quantity} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.ActiveIngredient.quantity(java.math.BigDecimal)#phrase.navigation = {this}.quantity({0})
+ae.gov.mohap.odm.model.BiologicalDocuments.ActiveIngredient.quantityUnit#phrase.action = set the quantity unit of {this} to {quantity unit}
+ae.gov.mohap.odm.model.BiologicalDocuments.ActiveIngredient.quantityUnit#phrase.navigation = {quantity unit} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.ActiveIngredient.quantityUnit(ae.gov.mohap.odm.model.BiologicalDocuments.DicValue)#phrase.navigation = {this}.quantityUnit({0})
+ae.gov.mohap.odm.model.BiologicalDocuments.ActiveIngredient.refQuantity#phrase.action = set the ref quantity of {this} to {ref quantity}
+ae.gov.mohap.odm.model.BiologicalDocuments.ActiveIngredient.refQuantity#phrase.navigation = {ref quantity} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.ActiveIngredient.refQuantity(java.math.BigDecimal)#phrase.navigation = {this}.refQuantity({0})
+ae.gov.mohap.odm.model.BiologicalDocuments.ActiveIngredient.refQuantityUnit#phrase.action = set the ref quantity unit of {this} to {ref quantity unit}
+ae.gov.mohap.odm.model.BiologicalDocuments.ActiveIngredient.refQuantityUnit#phrase.navigation = {ref quantity unit} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.ActiveIngredient.refQuantityUnit(ae.gov.mohap.odm.model.BiologicalDocuments.DicValue)#phrase.navigation = {this}.refQuantityUnit({0})
+ae.gov.mohap.odm.model.BiologicalDocuments.ActiveIngredient.toString()#phrase.navigation = {this}.toString()
+
+# ae.gov.mohap.odm.model.BiologicalDocuments.Agent
+ae.gov.mohap.odm.model.BiologicalDocuments.Agent#concept.label = agent
+ae.gov.mohap.odm.model.BiologicalDocuments.Agent.address#phrase.action = set the address of {this} to {address}
+ae.gov.mohap.odm.model.BiologicalDocuments.Agent.address#phrase.navigation = {address} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.Agent.emirate#phrase.action = set the emirate of {this} to {emirate}
+ae.gov.mohap.odm.model.BiologicalDocuments.Agent.emirate#phrase.navigation = {emirate} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.Agent.fax#phrase.action = set the fax of {this} to {fax}
+ae.gov.mohap.odm.model.BiologicalDocuments.Agent.fax#phrase.navigation = {fax} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.Agent.licenseAuthority#phrase.action = set the license authority of {this} to {license authority}
+ae.gov.mohap.odm.model.BiologicalDocuments.Agent.licenseAuthority#phrase.navigation = {license authority} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.Agent.licenseExpireDate#phrase.action = set the license expire date of {this} to {license expire date}
+ae.gov.mohap.odm.model.BiologicalDocuments.Agent.licenseExpireDate#phrase.navigation = {license expire date} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.Agent.licenseNo#phrase.action = set the license no of {this} to {license no}
+ae.gov.mohap.odm.model.BiologicalDocuments.Agent.licenseNo#phrase.navigation = {license no} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.Agent.name#phrase.action = set the name of {this} to {name}
+ae.gov.mohap.odm.model.BiologicalDocuments.Agent.name#phrase.navigation = {name} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.Agent.poBox#phrase.action = set the po box of {this} to {po box}
+ae.gov.mohap.odm.model.BiologicalDocuments.Agent.poBox#phrase.navigation = {po box} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.Agent.telephone#phrase.action = set the telephone of {this} to {telephone}
+ae.gov.mohap.odm.model.BiologicalDocuments.Agent.telephone#phrase.navigation = {telephone} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.Agent.type#phrase.action = set the type of {this} to {type}
+ae.gov.mohap.odm.model.BiologicalDocuments.Agent.type#phrase.navigation = {type} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.Agent.webSite#phrase.action = set the web site of {this} to {web site}
+ae.gov.mohap.odm.model.BiologicalDocuments.Agent.webSite#phrase.navigation = {web site} of {this}
+
+# ae.gov.mohap.odm.model.BiologicalDocuments.ApplicationBiologicalDocs
+ae.gov.mohap.odm.model.BiologicalDocuments.ApplicationBiologicalDocs#concept.label = application biological docs
+ae.gov.mohap.odm.model.BiologicalDocuments.ApplicationBiologicalDocs.agent#phrase.action = set the agent of {this} to {agent}
+ae.gov.mohap.odm.model.BiologicalDocuments.ApplicationBiologicalDocs.agent#phrase.navigation = {agent} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.ApplicationBiologicalDocs.applicationNumber#phrase.action = set the application number of {this} to {application number}
+ae.gov.mohap.odm.model.BiologicalDocuments.ApplicationBiologicalDocs.applicationNumber#phrase.navigation = {application number} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.ApplicationBiologicalDocs.applicationNumber(java.lang.String)#phrase.navigation = {this}.applicationNumber({0})
+ae.gov.mohap.odm.model.BiologicalDocuments.ApplicationBiologicalDocs.drugNum#phrase.action = set the drug num of {this} to {drug num}
+ae.gov.mohap.odm.model.BiologicalDocuments.ApplicationBiologicalDocs.drugNum#phrase.navigation = {drug num} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.ApplicationBiologicalDocs.permitNumber#phrase.action = set the permit number of {this} to {permit number}
+ae.gov.mohap.odm.model.BiologicalDocuments.ApplicationBiologicalDocs.permitNumber#phrase.navigation = {permit number} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.ApplicationBiologicalDocs.product#phrase.action = set the product of {this} to {product}
+ae.gov.mohap.odm.model.BiologicalDocuments.ApplicationBiologicalDocs.product#phrase.navigation = {product} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.ApplicationBiologicalDocs.submitionDate#phrase.action = set the submition date of {this} to {submition date}
+ae.gov.mohap.odm.model.BiologicalDocuments.ApplicationBiologicalDocs.submitionDate#phrase.navigation = {submition date} of {this}
+
+# ae.gov.mohap.odm.model.BiologicalDocuments.BiologicalApplication
+ae.gov.mohap.odm.model.BiologicalDocuments.BiologicalApplication#concept.label = biological application
+ae.gov.mohap.odm.model.BiologicalDocuments.BiologicalApplication.applicationNumber#phrase.action = set the application number of {this} to {application number}
+ae.gov.mohap.odm.model.BiologicalDocuments.BiologicalApplication.applicationNumber#phrase.navigation = {application number} of {this}
+
+# ae.gov.mohap.odm.model.BiologicalDocuments.CompanyName
+ae.gov.mohap.odm.model.BiologicalDocuments.CompanyName#concept.label = company name
+ae.gov.mohap.odm.model.BiologicalDocuments.CompanyName.key#phrase.action = set the key of {this} to {key}
+ae.gov.mohap.odm.model.BiologicalDocuments.CompanyName.key#phrase.navigation = {key} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.CompanyName.value#phrase.action = set the value of {this} to {value}
+ae.gov.mohap.odm.model.BiologicalDocuments.CompanyName.value#phrase.navigation = {value} of {this}
+
+# ae.gov.mohap.odm.model.BiologicalDocuments.Country
+ae.gov.mohap.odm.model.BiologicalDocuments.Country#concept.label = country
+ae.gov.mohap.odm.model.BiologicalDocuments.Country.key#phrase.action = set the key of {this} to {key}
+ae.gov.mohap.odm.model.BiologicalDocuments.Country.key#phrase.navigation = {key} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.Country.value#phrase.action = set the value of {this} to {value}
+ae.gov.mohap.odm.model.BiologicalDocuments.Country.value#phrase.navigation = {value} of {this}
+
+# ae.gov.mohap.odm.model.BiologicalDocuments.DicValue
+ae.gov.mohap.odm.model.BiologicalDocuments.DicValue#concept.label = dic value
+ae.gov.mohap.odm.model.BiologicalDocuments.DicValue.equals(java.lang.Object)#phrase.navigation = {this}.equals({0})
+ae.gov.mohap.odm.model.BiologicalDocuments.DicValue.hashCode()#phrase.navigation = {this}.hashCode()
+ae.gov.mohap.odm.model.BiologicalDocuments.DicValue.key#phrase.action = set the key of {this} to {key}
+ae.gov.mohap.odm.model.BiologicalDocuments.DicValue.key#phrase.navigation = {key} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.DicValue.key(java.lang.String)#phrase.navigation = {this}.key({0})
+ae.gov.mohap.odm.model.BiologicalDocuments.DicValue.parentKey#phrase.action = set the parent key of {this} to {parent key}
+ae.gov.mohap.odm.model.BiologicalDocuments.DicValue.parentKey#phrase.navigation = {parent key} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.DicValue.parentKey(java.lang.String)#phrase.navigation = {this}.parentKey({0})
+ae.gov.mohap.odm.model.BiologicalDocuments.DicValue.symbol#phrase.action = set the symbol of {this} to {symbol}
+ae.gov.mohap.odm.model.BiologicalDocuments.DicValue.symbol#phrase.navigation = {symbol} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.DicValue.symbol(java.lang.String)#phrase.navigation = {this}.symbol({0})
+ae.gov.mohap.odm.model.BiologicalDocuments.DicValue.toString()#phrase.navigation = {this}.toString()
+ae.gov.mohap.odm.model.BiologicalDocuments.DicValue.value#phrase.action = set the value of {this} to {value}
+ae.gov.mohap.odm.model.BiologicalDocuments.DicValue.value#phrase.navigation = {value} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.DicValue.value(java.lang.String)#phrase.navigation = {this}.value({0})
+
+# ae.gov.mohap.odm.model.BiologicalDocuments.DrugStore
+ae.gov.mohap.odm.model.BiologicalDocuments.DrugStore#concept.label = drug store
+ae.gov.mohap.odm.model.BiologicalDocuments.DrugStore.agentName#phrase.action = set the agent name of {this} to {agent name}
+ae.gov.mohap.odm.model.BiologicalDocuments.DrugStore.agentName#phrase.navigation = {agent name} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.DrugStore.agentName(java.lang.String)#phrase.navigation = {this}.agentName({0})
+ae.gov.mohap.odm.model.BiologicalDocuments.DrugStore.agentRegNo#phrase.action = set the agent reg no of {this} to {agent reg no}
+ae.gov.mohap.odm.model.BiologicalDocuments.DrugStore.agentRegNo#phrase.navigation = {agent reg no} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.DrugStore.agentRegNo(java.lang.String)#phrase.navigation = {this}.agentRegNo({0})
+ae.gov.mohap.odm.model.BiologicalDocuments.DrugStore.equals(java.lang.Object)#phrase.navigation = {this}.equals({0})
+ae.gov.mohap.odm.model.BiologicalDocuments.DrugStore.hashCode()#phrase.navigation = {this}.hashCode()
+ae.gov.mohap.odm.model.BiologicalDocuments.DrugStore.licenseAuthority#phrase.action = set the license authority of {this} to {license authority}
+ae.gov.mohap.odm.model.BiologicalDocuments.DrugStore.licenseAuthority#phrase.navigation = {license authority} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.DrugStore.licenseExpireDate#phrase.action = set the license expire date of {this} to {license expire date}
+ae.gov.mohap.odm.model.BiologicalDocuments.DrugStore.licenseExpireDate#phrase.navigation = {license expire date} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.DrugStore.licenseExpireDate(java.util.Date)#phrase.navigation = {this}.licenseExpireDate({0})
+ae.gov.mohap.odm.model.BiologicalDocuments.DrugStore.licenseNo#phrase.action = set the license no of {this} to {license no}
+ae.gov.mohap.odm.model.BiologicalDocuments.DrugStore.licenseNo#phrase.navigation = {license no} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.DrugStore.licenseNo(java.lang.String)#phrase.navigation = {this}.licenseNo({0})
+ae.gov.mohap.odm.model.BiologicalDocuments.DrugStore.toString()#phrase.navigation = {this}.toString()
+ae.gov.mohap.odm.model.BiologicalDocuments.DrugStore.type#phrase.action = set the type of {this} to {type}
+ae.gov.mohap.odm.model.BiologicalDocuments.DrugStore.type#phrase.navigation = {type} of {this}
+
+# ae.gov.mohap.odm.model.BiologicalDocuments.EndUser
+ae.gov.mohap.odm.model.BiologicalDocuments.EndUser#concept.label = end user
+ae.gov.mohap.odm.model.BiologicalDocuments.EndUser.address#phrase.action = set the address of {this} to {address}
+ae.gov.mohap.odm.model.BiologicalDocuments.EndUser.address#phrase.navigation = {address} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.EndUser.approvalNumber#phrase.action = set the approval number of {this} to {approval number}
+ae.gov.mohap.odm.model.BiologicalDocuments.EndUser.approvalNumber#phrase.navigation = {approval number} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.EndUser.approvalNumber(java.lang.String)#phrase.navigation = {this}.approvalNumber({0})
+ae.gov.mohap.odm.model.BiologicalDocuments.EndUser.authorizationNum#phrase.action = set the authorization num of {this} to {authorization num}
+ae.gov.mohap.odm.model.BiologicalDocuments.EndUser.authorizationNum#phrase.navigation = {authorization num} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.EndUser.authorizationNum(java.lang.String)#phrase.navigation = {this}.authorizationNum({0})
+ae.gov.mohap.odm.model.BiologicalDocuments.EndUser.biologicalEmirate#phrase.action = set the biological emirate of {this} to {biological emirate}
+ae.gov.mohap.odm.model.BiologicalDocuments.EndUser.biologicalEmirate#phrase.navigation = {biological emirate} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.EndUser.email#phrase.action = set the email of {this} to {email}
+ae.gov.mohap.odm.model.BiologicalDocuments.EndUser.email#phrase.navigation = {email} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.EndUser.equals(java.lang.Object)#phrase.navigation = {this}.equals({0})
+ae.gov.mohap.odm.model.BiologicalDocuments.EndUser.fax#phrase.action = set the fax of {this} to {fax}
+ae.gov.mohap.odm.model.BiologicalDocuments.EndUser.fax#phrase.navigation = {fax} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.EndUser.hashCode()#phrase.navigation = {this}.hashCode()
+ae.gov.mohap.odm.model.BiologicalDocuments.EndUser.healthAuthorityName#phrase.action = set the health authority name of {this} to {health authority name}
+ae.gov.mohap.odm.model.BiologicalDocuments.EndUser.healthAuthorityName#phrase.navigation = {health authority name} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.EndUser.healthAuthorityName(java.lang.String)#phrase.navigation = {this}.healthAuthorityName({0})
+ae.gov.mohap.odm.model.BiologicalDocuments.EndUser.lpoDate#phrase.action = set the lpo date of {this} to {lpo date}
+ae.gov.mohap.odm.model.BiologicalDocuments.EndUser.lpoDate#phrase.navigation = {lpo date} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.EndUser.lpoDate(java.util.Date)#phrase.navigation = {this}.lpoDate({0})
+ae.gov.mohap.odm.model.BiologicalDocuments.EndUser.lpoNum#phrase.action = set the lpo num of {this} to {lpo num}
+ae.gov.mohap.odm.model.BiologicalDocuments.EndUser.lpoNum#phrase.navigation = {lpo num} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.EndUser.lpoNum(java.lang.String)#phrase.navigation = {this}.lpoNum({0})
+ae.gov.mohap.odm.model.BiologicalDocuments.EndUser.name#phrase.action = set the name of {this} to {name}
+ae.gov.mohap.odm.model.BiologicalDocuments.EndUser.name#phrase.navigation = {name} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.EndUser.poBox#phrase.action = set the po box of {this} to {po box}
+ae.gov.mohap.odm.model.BiologicalDocuments.EndUser.poBox#phrase.navigation = {po box} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.EndUser.quantity#phrase.action = set the quantity of {this} to {quantity}
+ae.gov.mohap.odm.model.BiologicalDocuments.EndUser.quantity#phrase.navigation = {quantity} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.EndUser.quantity(java.lang.Integer)#phrase.navigation = {this}.quantity({0})
+ae.gov.mohap.odm.model.BiologicalDocuments.EndUser.quantityUnit#phrase.action = set the quantity unit of {this} to {quantity unit}
+ae.gov.mohap.odm.model.BiologicalDocuments.EndUser.quantityUnit#phrase.navigation = {quantity unit} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.EndUser.quantityUnit(ae.gov.mohap.odm.model.BiologicalDocuments.DicValue)#phrase.navigation = {this}.quantityUnit({0})
+ae.gov.mohap.odm.model.BiologicalDocuments.EndUser.remarks#phrase.action = set the remarks of {this} to {remarks}
+ae.gov.mohap.odm.model.BiologicalDocuments.EndUser.remarks#phrase.navigation = {remarks} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.EndUser.telephone#phrase.action = set the telephone of {this} to {telephone}
+ae.gov.mohap.odm.model.BiologicalDocuments.EndUser.telephone#phrase.navigation = {telephone} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.EndUser.toString()#phrase.navigation = {this}.toString()
+ae.gov.mohap.odm.model.BiologicalDocuments.EndUser.type#phrase.action = set the type of {this} to {type}
+ae.gov.mohap.odm.model.BiologicalDocuments.EndUser.type#phrase.navigation = {type} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.EndUser.webSite#phrase.action = set the web site of {this} to {web site}
+ae.gov.mohap.odm.model.BiologicalDocuments.EndUser.webSite#phrase.navigation = {web site} of {this}
+
+# ae.gov.mohap.odm.model.BiologicalDocuments.InactiveIngredient
+ae.gov.mohap.odm.model.BiologicalDocuments.InactiveIngredient#concept.label = inactive ingredient
+ae.gov.mohap.odm.model.BiologicalDocuments.InactiveIngredient.additionalInfo#phrase.action = set the additional info of {this} to {additional info}
+ae.gov.mohap.odm.model.BiologicalDocuments.InactiveIngredient.additionalInfo#phrase.navigation = {additional info} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.InactiveIngredient.additionalInfo(java.lang.String)#phrase.navigation = {this}.additionalInfo({0})
+ae.gov.mohap.odm.model.BiologicalDocuments.InactiveIngredient.description#phrase.action = set the description of {this} to {description}
+ae.gov.mohap.odm.model.BiologicalDocuments.InactiveIngredient.description#phrase.navigation = {description} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.InactiveIngredient.description(java.lang.String)#phrase.navigation = {this}.description({0})
+ae.gov.mohap.odm.model.BiologicalDocuments.InactiveIngredient.equals(java.lang.Object)#phrase.navigation = {this}.equals({0})
+ae.gov.mohap.odm.model.BiologicalDocuments.InactiveIngredient.functionDesc#phrase.action = set the function desc of {this} to {function desc}
+ae.gov.mohap.odm.model.BiologicalDocuments.InactiveIngredient.functionDesc#phrase.navigation = {function desc} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.InactiveIngredient.functionDesc(java.lang.String)#phrase.navigation = {this}.functionDesc({0})
+ae.gov.mohap.odm.model.BiologicalDocuments.InactiveIngredient.hashCode()#phrase.navigation = {this}.hashCode()
+ae.gov.mohap.odm.model.BiologicalDocuments.InactiveIngredient.indication#phrase.action = set the indication of {this} to {indication}
+ae.gov.mohap.odm.model.BiologicalDocuments.InactiveIngredient.indication#phrase.navigation = {indication} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.InactiveIngredient.ipiId#phrase.action = set the ipi id of {this} to {ipi id}
+ae.gov.mohap.odm.model.BiologicalDocuments.InactiveIngredient.ipiId#phrase.navigation = {ipi id} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.InactiveIngredient.ipiId(java.lang.Integer)#phrase.navigation = {this}.ipiId({0})
+ae.gov.mohap.odm.model.BiologicalDocuments.InactiveIngredient.name#phrase.action = set the name of {this} to {name}
+ae.gov.mohap.odm.model.BiologicalDocuments.InactiveIngredient.name#phrase.navigation = {name} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.InactiveIngredient.quantity#phrase.action = set the quantity of {this} to {quantity}
+ae.gov.mohap.odm.model.BiologicalDocuments.InactiveIngredient.quantity#phrase.navigation = {quantity} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.InactiveIngredient.quantity(java.math.BigDecimal)#phrase.navigation = {this}.quantity({0})
+ae.gov.mohap.odm.model.BiologicalDocuments.InactiveIngredient.quantityUnit#phrase.action = set the quantity unit of {this} to {quantity unit}
+ae.gov.mohap.odm.model.BiologicalDocuments.InactiveIngredient.quantityUnit#phrase.navigation = {quantity unit} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.InactiveIngredient.quantityUnit(ae.gov.mohap.odm.model.BiologicalDocuments.DicValue)#phrase.navigation = {this}.quantityUnit({0})
+ae.gov.mohap.odm.model.BiologicalDocuments.InactiveIngredient.refQuantity#phrase.action = set the ref quantity of {this} to {ref quantity}
+ae.gov.mohap.odm.model.BiologicalDocuments.InactiveIngredient.refQuantity#phrase.navigation = {ref quantity} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.InactiveIngredient.refQuantity(java.math.BigDecimal)#phrase.navigation = {this}.refQuantity({0})
+ae.gov.mohap.odm.model.BiologicalDocuments.InactiveIngredient.refQuantityUnit#phrase.action = set the ref quantity unit of {this} to {ref quantity unit}
+ae.gov.mohap.odm.model.BiologicalDocuments.InactiveIngredient.refQuantityUnit#phrase.navigation = {ref quantity unit} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.InactiveIngredient.refQuantityUnit(ae.gov.mohap.odm.model.BiologicalDocuments.DicValue)#phrase.navigation = {this}.refQuantityUnit({0})
+ae.gov.mohap.odm.model.BiologicalDocuments.InactiveIngredient.toString()#phrase.navigation = {this}.toString()
+
+# ae.gov.mohap.odm.model.BiologicalDocuments.ManCompanyName
+ae.gov.mohap.odm.model.BiologicalDocuments.ManCompanyName#concept.label = man company name
+ae.gov.mohap.odm.model.BiologicalDocuments.ManCompanyName.key#phrase.action = set the key of {this} to {key}
+ae.gov.mohap.odm.model.BiologicalDocuments.ManCompanyName.key#phrase.navigation = {key} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.ManCompanyName.value#phrase.action = set the value of {this} to {value}
+ae.gov.mohap.odm.model.BiologicalDocuments.ManCompanyName.value#phrase.navigation = {value} of {this}
+
+# ae.gov.mohap.odm.model.BiologicalDocuments.ManCountry
+ae.gov.mohap.odm.model.BiologicalDocuments.ManCountry#concept.label = man country
+ae.gov.mohap.odm.model.BiologicalDocuments.ManCountry.key#phrase.action = set the key of {this} to {key}
+ae.gov.mohap.odm.model.BiologicalDocuments.ManCountry.key#phrase.navigation = {key} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.ManCountry.value#phrase.action = set the value of {this} to {value}
+ae.gov.mohap.odm.model.BiologicalDocuments.ManCountry.value#phrase.navigation = {value} of {this}
+
+# ae.gov.mohap.odm.model.BiologicalDocuments.Name
+ae.gov.mohap.odm.model.BiologicalDocuments.Name#concept.label = name
+ae.gov.mohap.odm.model.BiologicalDocuments.Name.key#phrase.action = set the key of {this} to {key}
+ae.gov.mohap.odm.model.BiologicalDocuments.Name.key#phrase.navigation = {key} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.Name.value#phrase.action = set the value of {this} to {value}
+ae.gov.mohap.odm.model.BiologicalDocuments.Name.value#phrase.navigation = {value} of {this}
+
+# ae.gov.mohap.odm.model.BiologicalDocuments.OMCL
+ae.gov.mohap.odm.model.BiologicalDocuments.OMCL#concept.label = OMCL
+ae.gov.mohap.odm.model.BiologicalDocuments.OMCL.address#phrase.action = set the address of {this} to {address}
+ae.gov.mohap.odm.model.BiologicalDocuments.OMCL.address#phrase.navigation = {address} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.OMCL.batchNumbers#phrase.action = set the batch numbers of {this} to {batch numbers}
+ae.gov.mohap.odm.model.BiologicalDocuments.OMCL.batchNumbers#phrase.navigation = {batch numbers} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.OMCL.certificateNumber#phrase.action = set the certificate number of {this} to {certificate number}
+ae.gov.mohap.odm.model.BiologicalDocuments.OMCL.certificateNumber#phrase.navigation = {certificate number} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.OMCL.city#phrase.action = set the city of {this} to {city}
+ae.gov.mohap.odm.model.BiologicalDocuments.OMCL.city#phrase.navigation = {city} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.OMCL.companyName#phrase.action = set the company name of {this} to {company name}
+ae.gov.mohap.odm.model.BiologicalDocuments.OMCL.companyName#phrase.navigation = {company name} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.OMCL.country#phrase.action = set the country of {this} to {country}
+ae.gov.mohap.odm.model.BiologicalDocuments.OMCL.country#phrase.navigation = {country} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.OMCL.expiryDate#phrase.action = set the expiry date of {this} to {expiry date}
+ae.gov.mohap.odm.model.BiologicalDocuments.OMCL.expiryDate#phrase.navigation = {expiry date} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.OMCL.fax#phrase.action = set the fax of {this} to {fax}
+ae.gov.mohap.odm.model.BiologicalDocuments.OMCL.fax#phrase.navigation = {fax} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.OMCL.hasOmlcBatchCertificate#phrase.action = set the has omlc batch certificate of {this} to {has omlc batch certificate}
+ae.gov.mohap.odm.model.BiologicalDocuments.OMCL.hasOmlcBatchCertificate#phrase.navigation = {has omlc batch certificate} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.OMCL.issueDate#phrase.action = set the issue date of {this} to {issue date}
+ae.gov.mohap.odm.model.BiologicalDocuments.OMCL.issueDate#phrase.navigation = {issue date} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.OMCL.manAddress#phrase.action = set the man address of {this} to {man address}
+ae.gov.mohap.odm.model.BiologicalDocuments.OMCL.manAddress#phrase.navigation = {man address} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.OMCL.manCity#phrase.action = set the man city of {this} to {man city}
+ae.gov.mohap.odm.model.BiologicalDocuments.OMCL.manCity#phrase.navigation = {man city} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.OMCL.manCompanyName#phrase.action = set the man company name of {this} to {man company name}
+ae.gov.mohap.odm.model.BiologicalDocuments.OMCL.manCompanyName#phrase.navigation = {man company name} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.OMCL.manCountry#phrase.action = set the man country of {this} to {man country}
+ae.gov.mohap.odm.model.BiologicalDocuments.OMCL.manCountry#phrase.navigation = {man country} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.OMCL.manEmail#phrase.action = set the man email of {this} to {man email}
+ae.gov.mohap.odm.model.BiologicalDocuments.OMCL.manEmail#phrase.navigation = {man email} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.OMCL.manFax#phrase.action = set the man fax of {this} to {man fax}
+ae.gov.mohap.odm.model.BiologicalDocuments.OMCL.manFax#phrase.navigation = {man fax} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.OMCL.manPoBox#phrase.action = set the man po box of {this} to {man po box}
+ae.gov.mohap.odm.model.BiologicalDocuments.OMCL.manPoBox#phrase.navigation = {man po box} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.OMCL.manTelephone#phrase.action = set the man telephone of {this} to {man telephone}
+ae.gov.mohap.odm.model.BiologicalDocuments.OMCL.manTelephone#phrase.navigation = {man telephone} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.OMCL.manWebSite#phrase.action = set the man web site of {this} to {man web site}
+ae.gov.mohap.odm.model.BiologicalDocuments.OMCL.manWebSite#phrase.navigation = {man web site} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.OMCL.manufacturerDate#phrase.action = set the manufacturer date of {this} to {manufacturer date}
+ae.gov.mohap.odm.model.BiologicalDocuments.OMCL.manufacturerDate#phrase.navigation = {manufacturer date} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.OMCL.poBox#phrase.action = set the po box of {this} to {po box}
+ae.gov.mohap.odm.model.BiologicalDocuments.OMCL.poBox#phrase.navigation = {po box} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.OMCL.telephone#phrase.action = set the telephone of {this} to {telephone}
+ae.gov.mohap.odm.model.BiologicalDocuments.OMCL.telephone#phrase.navigation = {telephone} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.OMCL.webSite#phrase.action = set the web site of {this} to {web site}
+ae.gov.mohap.odm.model.BiologicalDocuments.OMCL.webSite#phrase.navigation = {web site} of {this}
+
+# ae.gov.mohap.odm.model.BiologicalDocuments.Product
+ae.gov.mohap.odm.model.BiologicalDocuments.Product#concept.label = product
+ae.gov.mohap.odm.model.BiologicalDocuments.Product.endUser#phrase.action = set the end users of {this} to {end user}
+ae.gov.mohap.odm.model.BiologicalDocuments.Product.endUser#phrase.navigation = {end user} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.Product.omcl#phrase.action = set the omcl of {this} to {omcl}
+ae.gov.mohap.odm.model.BiologicalDocuments.Product.omcl#phrase.navigation = {omcl} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.Product.productInfo#phrase.action = set the product info of {this} to {product info}
+ae.gov.mohap.odm.model.BiologicalDocuments.Product.productInfo#phrase.navigation = {product info} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.Product.sourceCompany#phrase.action = set the source company of {this} to {source company}
+ae.gov.mohap.odm.model.BiologicalDocuments.Product.sourceCompany#phrase.navigation = {source company} of {this}
+
+# ae.gov.mohap.odm.model.BiologicalDocuments.ProductFrom
+ae.gov.mohap.odm.model.BiologicalDocuments.ProductFrom#concept.label = product from
+ae.gov.mohap.odm.model.BiologicalDocuments.ProductFrom.key#phrase.action = set the key of {this} to {key}
+ae.gov.mohap.odm.model.BiologicalDocuments.ProductFrom.key#phrase.navigation = {key} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.ProductFrom.value#phrase.action = set the value of {this} to {value}
+ae.gov.mohap.odm.model.BiologicalDocuments.ProductFrom.value#phrase.navigation = {value} of {this}
+
+# ae.gov.mohap.odm.model.BiologicalDocuments.ProductInfo
+ae.gov.mohap.odm.model.BiologicalDocuments.ProductInfo#concept.label = product info
+ae.gov.mohap.odm.model.BiologicalDocuments.ProductInfo.activeIngredient#phrase.action = set the active ingredients of {this} to {active ingredient}
+ae.gov.mohap.odm.model.BiologicalDocuments.ProductInfo.activeIngredient#phrase.navigation = {active ingredient} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.ProductInfo.batchNumber#phrase.action = set the batch number of {this} to {batch number}
+ae.gov.mohap.odm.model.BiologicalDocuments.ProductInfo.batchNumber#phrase.navigation = {batch number} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.ProductInfo.expiryDate#phrase.action = set the expiry date of {this} to {expiry date}
+ae.gov.mohap.odm.model.BiologicalDocuments.ProductInfo.expiryDate#phrase.navigation = {expiry date} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.ProductInfo.inactiveIngredient#phrase.action = set the inactive ingredients of {this} to {inactive ingredient}
+ae.gov.mohap.odm.model.BiologicalDocuments.ProductInfo.inactiveIngredient#phrase.navigation = {inactive ingredient} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.ProductInfo.manufactureDate#phrase.action = set the manufacture date of {this} to {manufacture date}
+ae.gov.mohap.odm.model.BiologicalDocuments.ProductInfo.manufactureDate#phrase.navigation = {manufacture date} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.ProductInfo.packName#phrase.action = set the pack name of {this} to {pack name}
+ae.gov.mohap.odm.model.BiologicalDocuments.ProductInfo.packName#phrase.navigation = {pack name} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.ProductInfo.productFrom#phrase.action = set the product from of {this} to {product from}
+ae.gov.mohap.odm.model.BiologicalDocuments.ProductInfo.productFrom#phrase.navigation = {product from} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.ProductInfo.productName#phrase.action = set the product name of {this} to {product name}
+ae.gov.mohap.odm.model.BiologicalDocuments.ProductInfo.productName#phrase.navigation = {product name} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.ProductInfo.productRegistered#phrase.action = make it {product registered} that {this} is product registered
+ae.gov.mohap.odm.model.BiologicalDocuments.ProductInfo.productRegistered#phrase.navigation = {this} is product registered
+ae.gov.mohap.odm.model.BiologicalDocuments.ProductInfo.productStrength#phrase.action = set the product strength of {this} to {product strength}
+ae.gov.mohap.odm.model.BiologicalDocuments.ProductInfo.productStrength#phrase.navigation = {product strength} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.ProductInfo.quantity#phrase.action = set the quantity of {this} to {quantity}
+ae.gov.mohap.odm.model.BiologicalDocuments.ProductInfo.quantity#phrase.navigation = {quantity} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.ProductInfo.storageCondition#phrase.action = set the storage condition of {this} to {storage condition}
+ae.gov.mohap.odm.model.BiologicalDocuments.ProductInfo.storageCondition#phrase.navigation = {storage condition} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.ProductInfo.type#phrase.action = set the type of {this} to {type}
+ae.gov.mohap.odm.model.BiologicalDocuments.ProductInfo.type#phrase.navigation = {type} of {this}
+
+# ae.gov.mohap.odm.model.BiologicalDocuments.SourceCompany
+ae.gov.mohap.odm.model.BiologicalDocuments.SourceCompany#concept.label = source company
+ae.gov.mohap.odm.model.BiologicalDocuments.SourceCompany.address#phrase.action = set the address of {this} to {address}
+ae.gov.mohap.odm.model.BiologicalDocuments.SourceCompany.address#phrase.navigation = {address} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.SourceCompany.city#phrase.action = set the city of {this} to {city}
+ae.gov.mohap.odm.model.BiologicalDocuments.SourceCompany.city#phrase.navigation = {city} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.SourceCompany.companyName#phrase.action = set the company name of {this} to {company name}
+ae.gov.mohap.odm.model.BiologicalDocuments.SourceCompany.companyName#phrase.navigation = {company name} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.SourceCompany.country#phrase.action = set the country of {this} to {country}
+ae.gov.mohap.odm.model.BiologicalDocuments.SourceCompany.country#phrase.navigation = {country} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.SourceCompany.email#phrase.action = set the email of {this} to {email}
+ae.gov.mohap.odm.model.BiologicalDocuments.SourceCompany.email#phrase.navigation = {email} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.SourceCompany.fax#phrase.action = set the fax of {this} to {fax}
+ae.gov.mohap.odm.model.BiologicalDocuments.SourceCompany.fax#phrase.navigation = {fax} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.SourceCompany.poBox#phrase.action = set the po box of {this} to {po box}
+ae.gov.mohap.odm.model.BiologicalDocuments.SourceCompany.poBox#phrase.navigation = {po box} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.SourceCompany.registered#phrase.action = make it {registered} that {this} is registered
+ae.gov.mohap.odm.model.BiologicalDocuments.SourceCompany.registered#phrase.navigation = {this} is registered
+ae.gov.mohap.odm.model.BiologicalDocuments.SourceCompany.telephone#phrase.action = set the telephone of {this} to {telephone}
+ae.gov.mohap.odm.model.BiologicalDocuments.SourceCompany.telephone#phrase.navigation = {telephone} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.SourceCompany.type#phrase.action = set the type of {this} to {type}
+ae.gov.mohap.odm.model.BiologicalDocuments.SourceCompany.type#phrase.navigation = {type} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.SourceCompany.webSite#phrase.action = set the web site of {this} to {web site}
+ae.gov.mohap.odm.model.BiologicalDocuments.SourceCompany.webSite#phrase.navigation = {web site} of {this}
+
+# ae.gov.mohap.odm.model.BiologicalDocuments.Type
+ae.gov.mohap.odm.model.BiologicalDocuments.Type#concept.label = type
+ae.gov.mohap.odm.model.BiologicalDocuments.Type.key#phrase.action = set the key of {this} to {key}
+ae.gov.mohap.odm.model.BiologicalDocuments.Type.key#phrase.navigation = {key} of {this}
+ae.gov.mohap.odm.model.BiologicalDocuments.Type.value#phrase.action = set the value of {this} to {value}
+ae.gov.mohap.odm.model.BiologicalDocuments.Type.value#phrase.navigation = {value} of {this}

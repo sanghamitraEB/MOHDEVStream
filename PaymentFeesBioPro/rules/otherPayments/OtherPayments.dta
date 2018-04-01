@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.dt:DecisionTable xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.dt="http://ilog.rules.studio/model/dt.ecore">
+  <name>OtherPayments</name>
+  <uuid>5d176ff2-b8c1-42b7-8f0a-c88c472ff940</uuid>
+  <documentation><![CDATA[Payments calculations.]]></documentation>
+  <locale>en_US</locale>
+  <definition>
+<DT Version="7.0" xmlns="http://schemas.ilog.com/Rules/7.0/DecisionTable">
+  <Body>
+    <Properties>
+      <Property Name="Check.Gap" Type="xs:boolean"><![CDATA[false]]></Property>
+    </Properties>
+    <Structure>
+      <ConditionDefinitions>
+        <ConditionDefinition Id="C0">
+          <Properties>
+            <Property Name="Check.Gap" Type="xs:boolean"><![CDATA[false]]></Property>
+          </Properties>
+          <ExpressionDefinition>
+            <Text><![CDATA['payment type' is <a type>]]></Text>
+          </ExpressionDefinition>
+        </ConditionDefinition>
+        <ConditionDefinition Id="C1">
+          <ExpressionDefinition>
+            <Text><![CDATA[the application number of application is <a string>]]></Text>
+          </ExpressionDefinition>
+        </ConditionDefinition>
+        <ConditionDefinition Id="C2">
+          <ExpressionDefinition>
+            <Text><![CDATA['no submition fee' is <a boolean>]]></Text>
+          </ExpressionDefinition>
+        </ConditionDefinition>
+      </ConditionDefinitions>
+      <ActionDefinitions>
+        <ActionDefinition Id="A2">
+          <ExpressionDefinition>
+            <Text><![CDATA[add payment ( <a number> , <a string> , 'payment type' ) to payments]]></Text>
+          </ExpressionDefinition>
+        </ActionDefinition>
+      </ActionDefinitions>
+    </Structure>
+    <Contents>
+      <Partition DefId="C0">
+        <Condition>
+          <Expression>
+            <Param><![CDATA[Submission_Fee]]></Param>
+          </Expression>
+          <Partition DefId="C1">
+            <Condition>
+              <Expression>
+                <Param><![CDATA["mohAppImportBiologicalImport"]]></Param>
+              </Expression>
+              <Partition DefId="C2">
+                <Condition>
+                  <Expression>
+                    <Param><![CDATA[true]]></Param>
+                  </Expression>
+                  <ActionSet>
+                    <Action DefId="A2">
+                      <Expression>
+                        <Param><![CDATA[100]]></Param>
+                        <Param><![CDATA["Import Permit"]]></Param>
+                      </Expression>
+                    </Action>
+                  </ActionSet>
+                </Condition>
+              </Partition>
+            </Condition>
+            <Condition>
+              <Expression>
+                <Param><![CDATA["mohAppImportBiologicalExport"]]></Param>
+              </Expression>
+              <Partition DefId="C2">
+                <Condition>
+                  <Expression>
+                    <Param><![CDATA[true]]></Param>
+                  </Expression>
+                  <ActionSet>
+                    <Action DefId="A2">
+                      <Expression>
+                        <Param><![CDATA[100]]></Param>
+                        <Param><![CDATA["Export Permit"]]></Param>
+                      </Expression>
+                    </Action>
+                  </ActionSet>
+                </Condition>
+              </Partition>
+            </Condition>
+          </Partition>
+        </Condition>
+        <Condition>
+          <Expression>
+            <Param><![CDATA[Certificate_Fee]]></Param>
+          </Expression>
+          <Partition DefId="C1">
+            <Condition>
+              <Expression>
+                <Param><![CDATA["mohAppImportBiologicalExport"]]></Param>
+              </Expression>
+              <ActionSet>
+                <Action DefId="A2">
+                  <Expression>
+                    <Param><![CDATA[500]]></Param>
+                    <Param><![CDATA["Export PermitCertificate"]]></Param>
+                  </Expression>
+                </Action>
+              </ActionSet>
+            </Condition>
+          </Partition>
+        </Condition>
+      </Partition>
+    </Contents>
+  </Body>
+  <Resources DefaultLocale="en_US">
+    <ResourceSet Locale="en_US">
+      <Data Name="Definitions(A2)#HeaderText"><![CDATA[payment]]></Data>
+      <Data Name="Definitions(A2)#Width"><![CDATA[403]]></Data>
+      <Data Name="Definitions(A2)[0]#HeaderText"><![CDATA[amount]]></Data>
+      <Data Name="Definitions(A2)[1]#HeaderText"><![CDATA[description]]></Data>
+      <Data Name="Definitions(C0)#HeaderText"><![CDATA[payment type]]></Data>
+      <Data Name="Definitions(C0)#Width"><![CDATA[359]]></Data>
+      <Data Name="Definitions(C1)#HeaderText"><![CDATA[application number]]></Data>
+      <Data Name="Definitions(C1)#Width"><![CDATA[380]]></Data>
+      <Data Name="Definitions(C2)#HeaderText"><![CDATA[no submition fee]]></Data>
+      <Data Name="Definitions(C2)#Width"><![CDATA[164]]></Data>
+    </ResourceSet>
+  </Resources>
+</DT>
+</definition>
+</ilog.rules.studio.model.dt:DecisionTable>

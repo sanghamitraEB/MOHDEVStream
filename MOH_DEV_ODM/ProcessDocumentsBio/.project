@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>ProcessDocumentsBio</name>
+	<comment></comment>
+	<projects>
+		<project>DocumentsDefinitions</project>
+		<project>MOHAPAppImpExpManagement</project>
+		<project>MOHAPApplicationModel</project>
+		<project>MOHAPCommon</project>
+		<project>ProcessDocumentsModel</project>
+		<project>ProcessDocumentsBioModel</project>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>ilog.rules.studio.model.ruleBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>ilog.rules.studio.model.decisionProject</nature>
+		<nature>ilog.rules.studio.model.operationProject</nature>
+		<nature>ilog.rules.studio.model.ruleNature</nature>
+	</natures>
+</projectDescription>

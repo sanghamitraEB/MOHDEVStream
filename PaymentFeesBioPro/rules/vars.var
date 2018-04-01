@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:VariableSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>vars</name>
+  <uuid>627d809f-6f2c-4da4-8a0e-6ac0dd994ccd</uuid>
+  <variables name="noSubmitionFee" type="java.lang.Boolean" initialValue="false" verbalization="no submition fee"/>
+</ilog.rules.studio.model.base:VariableSet>

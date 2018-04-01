@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" xmlns:ilog.rules.studio.model.query.extractor="http://ilog.rules.studio/model/query/extractor.ecore" rulesetName="PaymentFeesBioPro" targetRuleProjectName="PaymentFeesBioPro">
+  <name>PaymentFeesBioProOperation</name>
+  <uuid>258df128-4b76-4076-9c3b-424ce29d8cff</uuid>
+  <referencedVariables variableName="paymentType" variableSetName="PaymentFeesCommonParams">
+    <variableSet href="../../mohap-odm/PRD/rules/PaymentFeesCommon/rules/PaymentFeesCommonParams.var#5074ecb0-14fd-4d75-a2ec-82c781b92fc4"/>
+  </referencedVariables>
+  <referencedVariables variableName="processState" variableSetName="PaymentFeesCommonParams">
+    <variableSet href="../../mohap-odm/PRD/rules/PaymentFeesCommon/rules/PaymentFeesCommonParams.var#5074ecb0-14fd-4d75-a2ec-82c781b92fc4"/>
+  </referencedVariables>
+  <referencedVariables variableName="payments" variableSetName="PaymentFeesCommonParams" direction="OUT">
+    <variableSet href="../../mohap-odm/PRD/rules/PaymentFeesCommon/rules/PaymentFeesCommonParams.var#5074ecb0-14fd-4d75-a2ec-82c781b92fc4"/>
+  </referencedVariables>
+  <referencedVariables variableName="feeDescription" variableSetName="PaymentFeesCommonParams" direction="OUT">
+    <variableSet href="../../mohap-odm/PRD/rules/PaymentFeesCommon/rules/PaymentFeesCommonParams.var#5074ecb0-14fd-4d75-a2ec-82c781b92fc4"/>
+  </referencedVariables>
+  <referencedVariables variableName="feeAmount" variableSetName="PaymentFeesCommonParams" direction="OUT">
+    <variableSet href="../../mohap-odm/PRD/rules/PaymentFeesCommon/rules/PaymentFeesCommonParams.var#5074ecb0-14fd-4d75-a2ec-82c781b92fc4"/>
+  </referencedVariables>
+  <referencedVariables variableName="application" variableSetName="PaymentFeesParams">
+    <variableSet href="../rules/PaymentFeesParams.var#00586444-83a3-4075-981b-5643ebd5e31c"/>
+  </referencedVariables>
+  <extractor xsi:type="ilog.rules.studio.model.query.extractor:QueryExtractor" name="PaymentFeesBioProOperation_extractor" validator="Default Validator"/>
+  <targetRuleProject href="../../PaymentFeesBioPro#87e8e9c8-7922-4380-ac0d-b7d6cbc6573d"/>
+</com.ibm.rules.studio.model.decisionservice:Operation>

@@ -1,0 +1,38 @@
+
+property loadGetterSetterAsProperties "true"
+property origin "xom:/ProcessDocumentsBio//ProcessDocumentsModel"
+property uuid "bc589dea-07dc-4249-9298-7c45961dfed7"
+package ae.gov.mohap.odm.documents;
+
+
+public class DocumentDefinition
+{
+    public string description;
+    public string documentDefinitionId;
+    public string name;
+    public boolean reusable;
+    public DocumentDefinition(string arg1, string arg2);
+    public DocumentDefinition();
+    public static ae.gov.mohap.odm.documents.DocumentDefinition createDocument(string arg1, string arg2, string arg3, boolean arg4);
+}
+
+package ae.gov.mohap.odm.processDocuments;
+
+
+public class Document
+        extends ae.gov.mohap.odm.documents.DocumentDefinition
+{
+    public boolean mandatory;
+    public string remark;
+    public Document();
+    public static ae.gov.mohap.odm.processDocuments.Document createDocument(string arg1, string arg2, boolean arg3);
+    public string toString();
+}
+
+public class Response
+{
+    public java.util.List documents domain 0,* class ae.gov.mohap.odm.processDocuments.Document;
+    public Response();
+    public string toString();
+}
+

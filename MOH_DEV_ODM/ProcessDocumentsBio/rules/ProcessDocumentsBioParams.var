@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:VariableSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>ProcessDocumentsBioParams</name>
+  <uuid>26607022-017a-48e4-865b-c9c98b588592</uuid>
+  <variables name="application" type="ae.gov.mohap.odm.model.BiologicalDocuments.BiologicalApplication" initialValue="" verbalization="application"/>
+  <variables name="response" type="ae.gov.mohap.odm.processDocuments.Response" initialValue="new ae.gov.mohap.odm.processDocuments.Response()" verbalization="decision"/>
+  <variables name="processState" type="ae.gov.mohap.odm.model.process.ProcessState" initialValue="" verbalization="process state"/>
+  <variables name="productRegistered" type="java.lang.Boolean" initialValue="false" verbalization="product registered"/>
+</ilog.rules.studio.model.base:VariableSet>

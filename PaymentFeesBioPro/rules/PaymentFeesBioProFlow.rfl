@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.ruleflow:RuleFlow xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.ruleflow="http://ilog.rules.studio/model/ruleflow.ecore">
+  <name>PaymentFeesBioProFlow</name>
+  <uuid>988eb97a-4ba3-474b-aa49-ff192726e8e0</uuid>
+  <locale>en_US</locale>
+  <categories>any</categories>
+  <rfModel>
+<Ruleflow xmlns="http://schemas.ilog.com/Rules/7.0/Ruleflow">
+  <Body>
+    <TaskList>
+      <StartTask Identifier="task_0"/>
+      <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="otherPayments" Ordering="Default">
+        <RuleList>
+          <Package Name="otherPayments"/>
+        </RuleList>
+      </RuleTask>
+      <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="paymentCodes" Ordering="Default">
+        <RuleList>
+          <Package Name="paymentCodes"/>
+        </RuleList>
+      </RuleTask>
+      <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="finalCalculations" Ordering="Default">
+        <RuleList>
+          <Package Name="finalCalculations"/>
+        </RuleList>
+      </RuleTask>
+      <StopTask Identifier="task_5"/>
+    </TaskList>
+    <NodeList>
+      <TaskNode Identifier="node_0" Task="task_0"/>
+      <TaskNode Identifier="node_2" Task="otherPayments"/>
+      <TaskNode Identifier="node_3" Task="paymentCodes"/>
+      <TaskNode Identifier="node_4" Task="finalCalculations"/>
+      <TaskNode Identifier="node_5" Task="task_5"/>
+    </NodeList>
+    <TransitionList>
+      <Transition Identifier="transition_0" Source="node_0" Target="node_2"/>
+      <Transition Identifier="transition_1" Source="node_2" Target="node_3"/>
+      <Transition Identifier="transition_2" Source="node_3" Target="node_4"/>
+      <Transition Identifier="transition_3" Source="node_4" Target="node_5"/>
+    </TransitionList>
+  </Body>
+  <Resources>
+    <ResourceSet Locale="en_US">
+      <Data Name="node_2#height">40.0</Data>
+      <Data Name="node_4#width">129.38086</Data>
+      <Data Name="node_3#height">40.0</Data>
+      <Data Name="node_4#height">40.0</Data>
+      <Data Name="node_5#name">node_2</Data>
+      <Data Name="node_2#name">node_2</Data>
+      <Data Name="node_3#width">122.71289</Data>
+      <Data Name="node_5#height">23.0</Data>
+      <Data Name="node_4#name">node_4</Data>
+      <Data Name="node_0#name">node_0</Data>
+      <Data Name="node_2#width">122.70703</Data>
+      <Data Name="node_3#y">-1.0</Data>
+      <Data Name="node_4#x">-61.0</Data>
+      <Data Name="node_4#y">90.0</Data>
+      <Data Name="node_5#x">-59.0</Data>
+      <Data Name="node_5#y">194.0</Data>
+      <Data Name="node_5#width">23.0</Data>
+      <Data Name="node_0#x">-71.0</Data>
+      <Data Name="node_0#y">-204.0</Data>
+      <Data Name="node_2#x">-68.0</Data>
+      <Data Name="node_3#name">node_3</Data>
+      <Data Name="node_2#y">-103.0</Data>
+      <Data Name="node_3#x">-65.0</Data>
+    </ResourceSet>
+  </Resources>
+  <Properties/>
+</Ruleflow>
+</rfModel>
+</ilog.rules.studio.model.ruleflow:RuleFlow>

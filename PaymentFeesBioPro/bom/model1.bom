@@ -1,0 +1,72 @@
+
+property loadGetterSetterAsProperties "true"
+property origin "xom:/PaymentFeesBioPro//PaymentFeesModel"
+property uuid "2944e8a0-0b8b-4c4e-a911-703a3f2afbb8"
+package ae.gov.mohap.odm.payementFees;
+
+
+public class AgentDefinition
+{
+    public string code;
+    public string description;
+    public AgentDefinition();
+    public static ae.gov.mohap.odm.payementFees.AgentDefinition createAgentDefinition(string arg1, string arg2);
+}
+
+public final class FeeType
+        extends java.lang.Enum
+{
+    domain {static Fixed_Fee, static Variable_Fee}
+    public static final readonly ae.gov.mohap.odm.payementFees.FeeType Fixed_Fee;
+    public static final readonly ae.gov.mohap.odm.payementFees.FeeType Variable_Fee;
+    public static ae.gov.mohap.odm.payementFees.FeeType valueOf(string arg);
+    public static ae.gov.mohap.odm.payementFees.FeeType[] values();
+}
+
+public class Payment
+{
+    public java.math.BigDecimal amount;
+    public string code;
+    public string description;
+    public ae.gov.mohap.odm.payementFees.FeeType feeType;
+    public string functionId;
+    public boolean minFee;
+    public ae.gov.mohap.odm.payementFees.Type paymentType;
+    public Payment();
+    public static ae.gov.mohap.odm.payementFees.Payment createPayment(java.math.BigDecimal arg1, string arg2, ae.gov.mohap.odm.payementFees.Type arg3);
+}
+
+public final class Type
+        extends java.lang.Enum
+{
+    domain 
+    {
+        static Submission_Fee,
+        static Shipment_Release_Fee,
+        static Export_Release_Fee,
+        static Order_Approval,
+        static Regitstration_Fee,
+        static Medical_Product_Analysis_Fee,
+        static Evaluation_VP_Fee,
+        static Pricing_Certificate_Fee,
+        static Pricing_Appeal_Fee,
+        static RePricing_Certificate_Fee,
+        static Certificate_Fee,
+        static Inspection_Fee
+    }
+    public static final readonly ae.gov.mohap.odm.payementFees.Type Certificate_Fee;
+    public static final readonly ae.gov.mohap.odm.payementFees.Type Evaluation_VP_Fee;
+    public static final readonly ae.gov.mohap.odm.payementFees.Type Export_Release_Fee;
+    public static final readonly ae.gov.mohap.odm.payementFees.Type Inspection_Fee;
+    public static final readonly ae.gov.mohap.odm.payementFees.Type Medical_Product_Analysis_Fee;
+    public static final readonly ae.gov.mohap.odm.payementFees.Type Order_Approval;
+    public static final readonly ae.gov.mohap.odm.payementFees.Type Pricing_Appeal_Fee;
+    public static final readonly ae.gov.mohap.odm.payementFees.Type Pricing_Certificate_Fee;
+    public static final readonly ae.gov.mohap.odm.payementFees.Type RePricing_Certificate_Fee;
+    public static final readonly ae.gov.mohap.odm.payementFees.Type Regitstration_Fee;
+    public static final readonly ae.gov.mohap.odm.payementFees.Type Shipment_Release_Fee;
+    public static final readonly ae.gov.mohap.odm.payementFees.Type Submission_Fee;
+    public static ae.gov.mohap.odm.payementFees.Type valueOf(string arg);
+    public static ae.gov.mohap.odm.payementFees.Type[] values();
+}
+

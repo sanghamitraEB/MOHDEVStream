@@ -1,0 +1,52 @@
+# Vocabulary Properties
+uuid = 7c75f5a7-ffe8-4afd-a5bc-cfdb9fd5f130
+
+# ae.gov.mohap.odm.payementFees.AgentDefinition
+ae.gov.mohap.odm.payementFees.AgentDefinition#concept.label = agent definition
+ae.gov.mohap.odm.payementFees.AgentDefinition.code#phrase.action = set the code of {this} to {code}
+ae.gov.mohap.odm.payementFees.AgentDefinition.code#phrase.navigation = {code} of {this}
+ae.gov.mohap.odm.payementFees.AgentDefinition.createAgentDefinition(java.lang.String,java.lang.String)#phrase.navigation = agent definition.createAgentDefinition({0}, {1})
+ae.gov.mohap.odm.payementFees.AgentDefinition.description#phrase.action = set the description of {this} to {description}
+ae.gov.mohap.odm.payementFees.AgentDefinition.description#phrase.navigation = {description} of {this}
+
+# ae.gov.mohap.odm.payementFees.FeeType
+ae.gov.mohap.odm.payementFees.FeeType#concept.label = fee type
+ae.gov.mohap.odm.payementFees.FeeType.Fixed_Fee#instance.label = Fixed_Fee
+ae.gov.mohap.odm.payementFees.FeeType.Variable_Fee#instance.label = Variable_Fee
+ae.gov.mohap.odm.payementFees.FeeType.valueOf(java.lang.String)#phrase.navigation = fee type.valueOf({0})
+ae.gov.mohap.odm.payementFees.FeeType.values()#phrase.navigation = fee type.values()
+
+# ae.gov.mohap.odm.payementFees.Payment
+ae.gov.mohap.odm.payementFees.Payment#concept.label = payment
+ae.gov.mohap.odm.payementFees.Payment.amount#phrase.action = set the amount of {this} to {amount}
+ae.gov.mohap.odm.payementFees.Payment.amount#phrase.navigation = {amount} of {this}
+ae.gov.mohap.odm.payementFees.Payment.code#phrase.action = set the code of {this} to {code}
+ae.gov.mohap.odm.payementFees.Payment.code#phrase.navigation = {code} of {this}
+ae.gov.mohap.odm.payementFees.Payment.createPayment(java.math.BigDecimal,java.lang.String,ae.gov.mohap.odm.payementFees.Type)#phrase.navigation = payment.createPayment({0}, {1}, {2})
+ae.gov.mohap.odm.payementFees.Payment.description#phrase.action = set the description of {this} to {description}
+ae.gov.mohap.odm.payementFees.Payment.description#phrase.navigation = {description} of {this}
+ae.gov.mohap.odm.payementFees.Payment.feeType#phrase.action = set the fee type of {this} to {fee type}
+ae.gov.mohap.odm.payementFees.Payment.feeType#phrase.navigation = {fee type} of {this}
+ae.gov.mohap.odm.payementFees.Payment.functionId#phrase.action = set the function id of {this} to {function id}
+ae.gov.mohap.odm.payementFees.Payment.functionId#phrase.navigation = {function id} of {this}
+ae.gov.mohap.odm.payementFees.Payment.minFee#phrase.action = make it {min fee} that {this} is min fee
+ae.gov.mohap.odm.payementFees.Payment.minFee#phrase.navigation = {this} is min fee
+ae.gov.mohap.odm.payementFees.Payment.paymentType#phrase.action = set the payment type of {this} to {payment type}
+ae.gov.mohap.odm.payementFees.Payment.paymentType#phrase.navigation = {payment type} of {this}
+
+# ae.gov.mohap.odm.payementFees.Type
+ae.gov.mohap.odm.payementFees.Type#concept.label = type
+ae.gov.mohap.odm.payementFees.Type.Certificate_Fee#instance.label = Certificate_Fee
+ae.gov.mohap.odm.payementFees.Type.Evaluation_VP_Fee#instance.label = Evaluation_VP_Fee
+ae.gov.mohap.odm.payementFees.Type.Export_Release_Fee#instance.label = Export_Release_Fee
+ae.gov.mohap.odm.payementFees.Type.Inspection_Fee#instance.label = Inspection_Fee
+ae.gov.mohap.odm.payementFees.Type.Medical_Product_Analysis_Fee#instance.label = Medical_Product_Analysis_Fee
+ae.gov.mohap.odm.payementFees.Type.Order_Approval#instance.label = Order_Approval
+ae.gov.mohap.odm.payementFees.Type.Pricing_Appeal_Fee#instance.label = Pricing_Appeal_Fee
+ae.gov.mohap.odm.payementFees.Type.Pricing_Certificate_Fee#instance.label = Pricing_Certificate_Fee
+ae.gov.mohap.odm.payementFees.Type.RePricing_Certificate_Fee#instance.label = RePricing_Certificate_Fee
+ae.gov.mohap.odm.payementFees.Type.Regitstration_Fee#instance.label = Regitstration_Fee
+ae.gov.mohap.odm.payementFees.Type.Shipment_Release_Fee#instance.label = Shipment_Release_Fee
+ae.gov.mohap.odm.payementFees.Type.Submission_Fee#instance.label = Submission_Fee
+ae.gov.mohap.odm.payementFees.Type.valueOf(java.lang.String)#phrase.navigation = type.valueOf({0})
+ae.gov.mohap.odm.payementFees.Type.values()#phrase.navigation = type.values()
