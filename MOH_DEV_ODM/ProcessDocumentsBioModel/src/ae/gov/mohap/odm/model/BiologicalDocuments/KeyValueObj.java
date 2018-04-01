@@ -1,0 +1,25 @@
+package ae.gov.mohap.odm.model.BiologicalDocuments;
+
+public class KeyValueObj {
+    //Added for Drug Classification
+	int key;
+	
+	String value;
+
+	public int getKey() {
+		return key;
+	}
+
+	public void setKey(int key) {
+		this.key = key;
+	}
+
+	public String getValue() {
+		return value;
+	}
+
+	public void setValue(String value) {
+		this.value = value;
+	}
+
+}
